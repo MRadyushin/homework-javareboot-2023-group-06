@@ -5,11 +5,11 @@ import org.junit.jupiter.api.Test;
 
 
 public class GreetingImplTest {
-    String expected = "Привет! Меня зовут Радюшин Максим и я работаю в Сбербанке. Мое главное хобби - Футбол";
-    String actual = new GreetingImpl().getBestHobby();
+    private final String actual = new GreetingImpl().getBestHobby();
 
     @Test
     public void getBestHobbyTest() {
+        String expected = "Привет! Меня зовут Радюшин Максим и я работаю в Сбербанке. Мое главное хобби - Футбол";
         Assert.assertEquals(expected, actual);
     }
 
