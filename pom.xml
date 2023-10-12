@@ -12,7 +12,6 @@
 
   <name>homework-javareboot-2023-group-06</name>
 
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>17</maven.compiler.source>
